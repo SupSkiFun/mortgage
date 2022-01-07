@@ -1,4 +1,5 @@
 FROM scratch
-COPY mortgageWeb-amd64 layoutAmor.html layoutWebi.html /
-COPY gopher /gopher
+COPY mortgageWeb-amd64 /
+COPY htdocs /htdocs
+COPY templates /templates
 CMD ["/mortgageWeb-amd64"]
